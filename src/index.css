@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: 'Poppins', ui-sans-serif, 'Roboto', system-ui, sans-serif;
-  background-color: #11181C;
+  background-color: #0c0c1a;
   color: #E5E7EB;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -14,4 +14,13 @@ body {
 #root {
   width: 100%;
   min-height: 100vh;
+}
+
+/* Hide scrollbars but keep scrollability */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
 }
