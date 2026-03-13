@@ -4,6 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        // Brand palette extracted from aspirebet.ke
         primary: '#E5E7EB',
         secondary: '#9CA3AF',
         accent: '#D1D5DB',
@@ -33,6 +34,20 @@ export default {
         md: '12px',
         lg: '16px',
         full: '9999px',
+      },
+      spacing: {
+        '0.5': '2px',
+        '1': '4px',
+        '1.5': '6px',
+        '2': '8px',
+        '3': '12px',
+        '4': '16px',
+        '5': '20px',
+        '6': '24px',
+        '10': '40px',
+      },
+      animation: {
+        'pulse-fast': 'pulse 1s cubic-bezier(0.4, 0, 0.6, 1) infinite',
       },
     },
   },
